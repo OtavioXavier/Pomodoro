@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --text--color: #fff;
+  --player--color: #d9d9d9;
+
+  font-size: 62.5%;
+}
+
+body {
+  /* Background Gradiet */
+  background: #0f2027;
+  background: -webkit-linear-gradient(to right, #2c5364, #203a43, #0f2027);
+  background: linear-gradient(to right, #2c5364, #203a43, #0f2027);
+
+  /* Text config */
+  color: var(--text--color);
+  font-family: "Jomhuria", cursive;
+ 
+  display: grid;
+  min-height: 100vh;
+
+}
+
+main {
+    justify-self: center;
+    align-self: end;
+  
+}
+
+footer {
+    justify-self: initial;
+    align-self: end;
+
+    padding: 0 0 5rem 5rem;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+
+  cursor: pointer;
+}
+
+button img {
+  width: clamp(2.5rem, 1rem + 11vw,5rem, );
+  height: 5rem;
+}
+
+.hiden {
+  display: none;
+}
+
+.sound img {
+  width: 7.5rem;
+  height: 7.5rem;
+}
+
+#timer {
+  display: flex;
+
+  font-size: 15.6rem;
+}
+
+#player {
+  background-color: var(--player--color);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8rem;
+
+  border-radius: 9999px;
+  width: clamp(12rem, 12rem + 50vw, 24rem);
+  height: clamp(7rem, 7rem + 3vh, 7rem);
+}

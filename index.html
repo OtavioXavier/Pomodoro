@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Temporizador de tipo Pomodoro" />
+    <title>Pomodoro timer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jomhuria&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./src/style/style.css" />
+    <link
+      rel="shortcut icon"
+      href="./src/Image/3d-alarm.ico.png"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <main>
+      <div id="timer">
+        <span id="minutes">00</span>
+        <span>:</span>
+        <span id="seconds">00</span>
+      </div>
+      <div id="player">
+        <button class="play">
+          <img src="./src/Image/play-button (1).png" alt="" />
+        </button>
+        <button class="pause hiden">
+          <img src="./src/Image/pause (1).png" alt="" />
+        </button>
+        <button class="clock">
+          <img src="./src/Image/clock.png" alt="" />
+        </button>
+        <button class="stop hiden">
+          <img src="./src/Image/stop.png" alt="" />
+        </button>
+      </div>
+    </main>
+    <footer>
+      <button class="sound sound-on">
+        <img src="./src/Image/music tocando.png" alt="" />
+      </button>
+      <button class="sound sound-off hiden">
+        <img src="./src/Image/music.png" alt="" />
+      </button>
+    </footer>
+  </body>
+  <script src="./src/js/script.js" type="module"></script>
+</html>
